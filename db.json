@@ -139,18 +139,30 @@
       "price": 500,
       "date": "2020-01-02",
       "monthCategory": "2020-1",
-      "timestamp": 1543968000000,
+      "timestamp": 1577923200000,
       "id": "_2cdxkbtzi",
-      "cid": "11"
+      "cid": "11",
+      "category": {
+        "name": "兼职",
+        "iconName": "ios-cash",
+        "id": "11",
+        "type": "income"
+      }
     },
     {
-      "title": "收入",
-      "price": 100,
+      "title": "Monthly Salary",
+      "price": 20000,
       "date": "2020-01-01",
       "monthCategory": "2020-1",
-      "timestamp": 1543968000000,
+      "timestamp": 1577836800000,
       "id": "_znmwyaciy",
-      "cid": "12"
+      "cid": "12",
+      "category": {
+        "name": "理财",
+        "iconName": "logo-yen",
+        "id": "12",
+        "type": "income"
+      }
     },
     {
       "title": "收入",
@@ -180,22 +192,34 @@
       "cid": "3"
     },
     {
-      "title": "购买 iphone XR",
-      "price": 6000,
+      "title": "New Phone",
+      "price": 4000,
       "date": "2020-01-03",
       "monthCategory": "2020-1",
-      "timestamp": 1543795200000,
+      "timestamp": 1578009600000,
       "id": "_yiwdttati",
-      "cid": "4"
+      "cid": "4",
+      "category": {
+        "name": "数码",
+        "iconName": "ios-phone-portrait",
+        "id": "4",
+        "type": "outcome"
+      }
     },
     {
-      "title": "新的旅行条目",
+      "title": "Travel to Japan",
       "price": 10000,
       "date": "2020-01-05",
       "monthCategory": "2020-1",
-      "timestamp": 1546646400000,
+      "timestamp": 1578182400000,
       "id": "_cg4a9gzya",
-      "cid": "1"
+      "cid": "1",
+      "category": {
+        "name": "旅行",
+        "iconName": "ios-plane",
+        "id": "1",
+        "type": "outcome"
+      }
     },
     {
       "title": "庆功宴",
@@ -205,6 +229,21 @@
       "timestamp": 1578009600000,
       "id": "_ckiispbao",
       "cid": "2"
+    },
+    {
+      "title": "Investment fund",
+      "price": 4000,
+      "date": "2020-01-07",
+      "monthCategory": "2020-1",
+      "timestamp": 1578355200000,
+      "id": "_z0yn6auld",
+      "cid": "15",
+      "category": {
+        "name": "理财",
+        "iconName": "logo-yen",
+        "id": "12",
+        "type": "income"
+      }
     }
   ]
 }

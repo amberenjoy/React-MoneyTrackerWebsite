@@ -1,14 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import axios from 'axios';
 import Home from './containers/Home';
 import Create from './containers/Create';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { flatternArr, parseToYearAndMonth, ID } from './utility';
-import { testItems, testCategories } from './testData';
-import axios from 'axios';
-
-export const AppContext = React.createContext();
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import { AppContext } from './AppContext';
 
 class App extends React.Component {
   constructor(props) {
@@ -53,6 +51,12 @@ class App extends React.Component {
         let promiseArr = [];
         if (Object.keys(categories).length === 0) {
           promiseArr = [axios.get('/categories')];
+        } else {
+          promiseArr.push(
+            new Promise(resolve => {
+              resolve(null);
+            })
+          );
         }
         const itemAlreadyFetched = Object.keys(items).indexOf(id) > -1;
         if (id && !itemAlreadyFetched) {
