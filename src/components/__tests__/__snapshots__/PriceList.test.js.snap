@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test PriceList component  PriceList component renders correctly 1`] = `ShallowWrapper {}`;
-
 exports[`test PriceList component  Should render the component to match the snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`test PriceList component should render the component to match snapshot 1`] = `ShallowWrapper {}`;
